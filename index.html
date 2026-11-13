@@ -1,0 +1,600 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>TOUCHLINE — Football Shirts, Retro Classics & Custom Printing</title>
+  <meta name="description" content="Authentic club and international football shirts, graded retro classics, live name & number print preview, size finder and custom teamwear. Next-day delivery." />
+  <meta name="theme-color" content="#0a0b0a" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0b0a'/%3E%3Cpath d='M22 12l-12 9 5 10 6-4v25h22V27l6 4 5-10-12-9c-2 4-6 6-10 6s-8-2-10-6z' fill='%23c8f031'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Graduate&family=Inter:wght@400;500;600;700;800&family=Oswald:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#shop">Skip to shirts</a>
+
+  <!-- Announcement bar -->
+  <div class="announce" role="region" aria-label="Store announcements">
+    <div class="announce-track" id="announce">
+      <span class="is-active">Free UK delivery over £75 · <b data-delivery-countdown>Order soon for next-day delivery</b></span>
+      <span>365-day free returns on every shirt</span>
+      <span>New: use code <b>KICKOFF10</b> for 10% off your first order</span>
+      <span>Every retro shirt graded, photographed &amp; authenticated</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="header">
+    <div class="wrap header-inner">
+      <button class="icon-btn menu-btn" data-action="open-menu" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+      <a class="logo" href="#top" aria-label="TOUCHLINE home">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M11 5 4 10l2.6 5.2L9.5 13v14h13V13l2.9 2.2L28 10l-7-5c-1 2.2-3 3.4-5 3.4S12 7.2 11 5z" fill="currentColor"/></svg>
+        TOUCH<span>LINE</span>
+      </a>
+      <nav class="main-nav" aria-label="Main">
+        <a href="#shop" data-filter-cat="club">Club</a>
+        <a href="#shop" data-filter-cat="international">International</a>
+        <a href="#retro">Retro Vault</a>
+        <a href="#personalise">Personalise</a>
+        <a href="#teamwear">Teamwear</a>
+        <a href="#shop" data-filter-cat="sale" class="nav-sale">Sale</a>
+      </nav>
+      <div class="header-actions">
+        <button class="search-trigger" data-action="open-search" aria-label="Search shirts">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <span class="st-text">Search teams, players…</span>
+          <kbd>/</kbd>
+        </button>
+        <label class="currency" aria-label="Currency">
+          <select id="currency">
+            <option value="GBP">£ GBP</option>
+            <option value="EUR">€ EUR</option>
+            <option value="USD">$ USD</option>
+            <option value="PKR">Rs PKR</option>
+          </select>
+        </label>
+        <button class="icon-btn" data-action="open-wish" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.4-9.2-9A5 5 0 0 1 12 6a5 5 0 0 1 9.2 5C19 15.6 12 20 12 20z"/></svg>
+          <span class="count" id="wishCount" hidden>0</span>
+        </button>
+        <button class="icon-btn" data-action="open-cart" aria-label="Shopping bag">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 8h14l-1.2 12H6.2L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+          <span class="count" id="cartCount" hidden>0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg">
+        <img id="heroImg" alt="Packed football stadium under floodlights" fetchpriority="high" />
+      </div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow"><i class="pulse"></i> New season kits just landed</span>
+          <h1>Wear the badge.<br /><em>Own the moment.</em></h1>
+          <p class="lead">Club and international shirts, graded retro classics and custom kits. See your name and number on the shirt before you buy, and get it the next day.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#shop">Shop all shirts
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#personalise">Try the print studio</a>
+          </div>
+          <ul class="hero-points">
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg> 100% authentic stock</li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg> Live print preview</li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m5 12 4.5 4.5L19 7"/></svg> 365-day returns</li>
+          </ul>
+        </div>
+        <aside class="drop-card" aria-label="Next product drop">
+          <div class="drop-media"><img id="dropImg" alt="Retro football shirts hanging on a rail" loading="lazy" /></div>
+          <div class="drop-body">
+            <div class="drop-label"><i class="pulse hot"></i> Next drop</div>
+            <h3>Retro Vault Vol. 7</h3>
+            <p>40 graded classics from the 90s and 00s. Most sell out within an hour.</p>
+            <div class="countdown" id="dropCountdown" aria-live="off">
+              <div><b data-u="d">00</b><span>days</span></div>
+              <div><b data-u="h">00</b><span>hrs</span></div>
+              <div><b data-u="m">00</b><span>min</span></div>
+              <div><b data-u="s">00</b><span>sec</span></div>
+            </div>
+            <button class="btn btn-light btn-sm btn-block" data-action="notify">Remind me</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust" aria-label="Why shop with us">
+      <div class="wrap trust-grid">
+        <div class="trust-item">
+          <span class="ti-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3 4 6v6c0 5 3.4 8.3 8 9 4.6-.7 8-4 8-9V6l-8-3z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg></span>
+          <div><b>Authenticity guaranteed</b><small>Every shirt verified, or your money back</small></div>
+        </div>
+        <div class="trust-item">
+          <span class="ti-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></span>
+          <div><b>Next-day delivery</b><small data-delivery-countdown>Order by 9pm</small></div>
+        </div>
+        <div class="trust-item">
+          <span class="ti-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 12a8 8 0 0 1 14-5.3L20 9M20 4v5h-5M20 12a8 8 0 0 1-14 5.3L4 15M4 20v-5h5"/></svg></span>
+          <div><b>365-day returns</b><small>Free, no questions asked</small></div>
+        </div>
+        <div class="trust-item">
+          <span class="ti-icon"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="m13.5 6.5 4 4"/></svg></span>
+          <div><b>Printed in 24 hours</b><small>Pro-grade heat-pressed lettering</small></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="sec" aria-labelledby="cat-title">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="kicker">Find your shirt</span>
+            <h2 id="cat-title">Shop by category</h2>
+          </div>
+          <a class="link-arrow" href="#shop" data-filter-cat="all">View all shirts →</a>
+        </div>
+        <div class="cat-grid" id="catGrid"></div>
+      </div>
+    </section>
+
+    <!-- SHOP -->
+    <section class="sec shop" id="shop" aria-labelledby="shop-title">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="kicker">The collection</span>
+            <h2 id="shop-title">Shop shirts</h2>
+          </div>
+          <p class="sub" id="resultCount" aria-live="polite"></p>
+        </div>
+
+        <div class="toolbar">
+          <div class="chips" id="catChips" role="tablist" aria-label="Category"></div>
+          <div class="controls">
+            <label class="ctl">
+              <span class="sr-only">Country</span>
+              <select id="fRegion" class="select"></select>
+            </label>
+            <label class="ctl">
+              <span class="sr-only">Size in stock</span>
+              <select id="fSize" class="select">
+                <option value="all">Any size</option>
+                <option value="S">S in stock</option>
+                <option value="M">M in stock</option>
+                <option value="L">L in stock</option>
+                <option value="XL">XL in stock</option>
+                <option value="XXL">XXL in stock</option>
+              </select>
+            </label>
+            <label class="ctl range">
+              <span>Up to <b id="fPriceOut"></b></span>
+              <input id="fPrice" type="range" min="25" max="100" step="5" value="100" aria-label="Maximum price" />
+            </label>
+            <label class="ctl switch-label">
+              <input type="checkbox" id="fSale" class="sr-only" />
+              <span class="switch" aria-hidden="true"></span> On sale
+            </label>
+            <label class="ctl">
+              <span class="sr-only">Sort</span>
+              <select id="fSort" class="select">
+                <option value="featured">Sort: Featured</option>
+                <option value="new">Newest</option>
+                <option value="rating">Top rated</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="emptyState" hidden>
+          <svg viewBox="0 0 64 64" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 10 8 20l6 12 6-4v28h24V28l6 4 6-12-14-10c-2 4-6 7-10 7s-8-3-10-7z"/></svg>
+          <h3>No shirts match those filters</h3>
+          <p>Try a different size or price, or clear the filters.</p>
+          <button class="btn btn-ghost btn-sm" data-action="reset-filters">Reset filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PERSONALISATION STUDIO -->
+    <section class="sec studio" id="personalise" aria-labelledby="studio-title">
+      <div class="wrap studio-grid">
+        <div class="studio-stage reveal" id="studioStage">
+          <span class="stage-tag"><i class="pulse"></i> Live preview</span>
+          <div class="stage-shirt" id="studioShirt"></div>
+          <figure class="stage-photo">
+            <img id="studioPhoto" alt="Real shirt with a printed name and number" loading="lazy" />
+            <figcaption>The real thing</figcaption>
+          </figure>
+        </div>
+        <div class="studio-copy reveal">
+          <span class="kicker">Print studio</span>
+          <h2 id="studio-title">Your name.<br />Your number.</h2>
+          <p class="sub">Type it in and see it on the shirt straight away. What you see is what gets printed.</p>
+
+          <form class="studio-form" id="studioForm" autocomplete="off">
+            <div class="field">
+              <label for="sShirt">Shirt</label>
+              <select id="sShirt" class="input select-input"></select>
+            </div>
+            <div class="row2">
+              <div class="field">
+                <label for="sName">Name <small class="char-count" id="sNameCount">0/12</small></label>
+                <input id="sName" class="input big" maxlength="12" placeholder="YOUR NAME" />
+              </div>
+              <div class="field">
+                <label for="sNum">Number</label>
+                <input id="sNum" class="input big" inputmode="numeric" maxlength="2" placeholder="10" />
+              </div>
+            </div>
+            <div class="field">
+              <span class="field-label">Lettering style</span>
+              <div class="seg" id="sFont" role="group" aria-label="Lettering style">
+                <button type="button" data-font="modern" aria-pressed="true">Modern</button>
+                <button type="button" data-font="classic" aria-pressed="false">Classic</button>
+                <button type="button" data-font="retro" aria-pressed="false">Retro</button>
+              </div>
+            </div>
+            <div class="field">
+              <span class="field-label">Size <button type="button" class="link-btn" data-action="size-finder" data-context="studio">Not sure? Find your size</button></span>
+              <div class="sizes" id="sSizes"></div>
+            </div>
+            <div class="studio-total">
+              <div>
+                <small id="sBreakdown"></small>
+                <b id="sTotal"></b>
+              </div>
+              <button type="submit" class="btn btn-primary">Add to bag</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- RETRO VAULT -->
+    <section class="sec vault" id="retro" aria-labelledby="vault-title">
+      <div class="wrap">
+        <div class="vault-grid">
+          <div class="vault-media reveal">
+            <img id="vaultImg1" class="v1" alt="Vintage football shirts on display" loading="lazy" />
+            <img id="vaultImg2" class="v2" alt="Back of a retro home shirt with name and number" loading="lazy" />
+            <span class="vault-stamp">Graded<br /><b>A+</b></span>
+          </div>
+          <div class="vault-copy reveal">
+            <span class="kicker gold">The Retro Vault</span>
+            <h2 id="vault-title">Classic shirts, graded honestly.</h2>
+            <p class="sub">Every vintage shirt is authenticated by hand, photographed from every angle and given a condition grade, so you know exactly what you're getting.</p>
+            <div class="grades">
+              <div class="grade"><b>A+</b><span><strong>Like new</strong> No visible wear. Often unworn with tags.</span></div>
+              <div class="grade"><b>A</b><span><strong>Excellent</strong> Light signs of wear, print and crest intact.</span></div>
+              <div class="grade"><b>B</b><span><strong>Good</strong> Visible wear, fully described and photographed.</span></div>
+            </div>
+            <a class="btn btn-gold" href="#shop" data-filter-cat="retro">Explore the vault</a>
+          </div>
+        </div>
+        <div class="rail-head">
+          <h3>Fresh in the vault</h3>
+          <div class="rail-nav">
+            <button class="icon-btn outline" data-rail="vaultRail" data-dir="-1" aria-label="Scroll left"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M15 6l-6 6 6 6"/></svg></button>
+            <button class="icon-btn outline" data-rail="vaultRail" data-dir="1" aria-label="Scroll right"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M9 6l6 6-6 6"/></svg></button>
+          </div>
+        </div>
+        <div class="rail" id="vaultRail"></div>
+      </div>
+    </section>
+
+    <!-- TEAMWEAR BUILDER -->
+    <section class="sec builder" id="teamwear" aria-labelledby="builder-title">
+      <div class="wrap builder-grid">
+        <div class="builder-copy reveal">
+          <span class="kicker">Teamwear kit builder</span>
+          <h2 id="builder-title">Design your club's kit in minutes.</h2>
+          <p class="sub">Choose a pattern and colours and add a name and number. The bigger your squad, the lower the price per shirt.</p>
+
+          <div class="field">
+            <span class="field-label">Pattern</span>
+            <div class="pattern-grid" id="kbPatterns" role="group" aria-label="Pattern"></div>
+          </div>
+          <div class="color-rows">
+            <div class="field color-field">
+              <span class="field-label">Main colour</span>
+              <div class="swatch-row" data-kb-color="base"></div>
+            </div>
+            <div class="field color-field">
+              <span class="field-label">Second colour</span>
+              <div class="swatch-row" data-kb-color="stripe"></div>
+            </div>
+            <div class="field color-field">
+              <span class="field-label">Print colour</span>
+              <div class="swatch-row" data-kb-color="text"></div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="kbName">Club or player name</label>
+              <input id="kbName" class="input big" maxlength="12" placeholder="SUNDAY FC" />
+            </div>
+            <div class="field">
+              <label for="kbNum">Number</label>
+              <input id="kbNum" class="input big" inputmode="numeric" maxlength="2" placeholder="9" />
+            </div>
+          </div>
+        </div>
+
+        <div class="builder-side reveal">
+          <div class="builder-stage" id="kbStage"></div>
+          <div class="squad">
+            <div class="squad-row">
+              <span>Squad size</span>
+              <div class="stepper lg">
+                <button type="button" data-kb-qty="-1" aria-label="Fewer shirts">−</button>
+                <input id="kbQty" type="number" min="1" max="60" value="15" aria-label="Squad size" />
+                <button type="button" data-kb-qty="1" aria-label="More shirts">+</button>
+              </div>
+            </div>
+            <div class="tiers" id="kbTiers"></div>
+            <div class="squad-total">
+              <div><small id="kbPer"></small><b id="kbTotal"></b></div>
+              <button class="btn btn-primary" data-action="kb-add">Add squad to bag</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARISON -->
+    <section class="sec compare" aria-labelledby="compare-title">
+      <div class="wrap">
+        <div class="sec-head center reveal">
+          <div>
+            <span class="kicker">Why TOUCHLINE</span>
+            <h2 id="compare-title">Not your average shirt shop</h2>
+          </div>
+        </div>
+        <div class="table-wrap reveal">
+          <table class="compare-table">
+            <thead>
+              <tr><th scope="col"><span class="sr-only">Feature</span></th><th scope="col" class="us">TOUCHLINE</th><th scope="col">Typical shirt shop</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Live preview of your name &amp; number</th><td class="us yes">Yes, instant</td><td class="no">Text box only</td></tr>
+              <tr><th scope="row">Retro shirts graded &amp; photographed</th><td class="us yes">Every shirt</td><td class="no">Rarely</td></tr>
+              <tr><th scope="row">Size finder on every shirt</th><td class="us yes">Yes</td><td class="no">Static size chart</td></tr>
+              <tr><th scope="row">Next-day delivery cut-off</th><td class="us yes">9pm</td><td class="no">Usually 2–3pm</td></tr>
+              <tr><th scope="row">Free returns window</th><td class="us yes">365 days</td><td class="no">14–30 days</td></tr>
+              <tr><th scope="row">Prices in your currency</th><td class="us yes">£ · € · $ · Rs</td><td class="no">Often one currency</td></tr>
+              <tr><th scope="row">Custom teamwear with instant squad pricing</th><td class="us yes">Build &amp; buy online</td><td class="no">Email for a quote</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="sec reviews" aria-labelledby="reviews-title">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="kicker">Fans love it</span>
+            <h2 id="reviews-title">Rated 4.8 out of 5</h2>
+          </div>
+        </div>
+        <div class="reviews-grid" id="reviewsGrid"></div>
+      </div>
+    </section>
+
+    <!-- RECENTLY VIEWED -->
+    <section class="sec recent" id="recentSec" hidden aria-labelledby="recent-title">
+      <div class="wrap">
+        <div class="rail-head"><h3 id="recent-title">Recently viewed</h3></div>
+        <div class="rail" id="recentRail"></div>
+      </div>
+    </section>
+
+    <!-- IN THE STANDS -->
+    <section class="sec stands" aria-labelledby="stands-title">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <div>
+            <span class="kicker">#WornAtTouchline</span>
+            <h2 id="stands-title">Spotted in the stands</h2>
+          </div>
+          <p class="sub">Tag us to be featured and get 15% off your next shirt.</p>
+        </div>
+        <div class="stands-grid" id="standsGrid"></div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="sec newsletter-sec" id="newsletter">
+      <div class="wrap">
+        <div class="newsletter reveal">
+          <div>
+            <span class="kicker ink">Drop alerts</span>
+            <h2>Never miss a kit launch.</h2>
+            <p>Get first access to new kits and Retro Vault drops, plus 10% off your first order.</p>
+          </div>
+          <form class="nl-form" id="nlForm" novalidate>
+            <label for="nlEmail" class="sr-only">Email address</label>
+            <input id="nlEmail" type="email" placeholder="you@example.com" required autocomplete="email" />
+            <button class="btn btn-dark" type="submit">Get 10% off</button>
+            <p class="nl-msg" id="nlMsg" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="f-brand">
+        <a class="logo" href="#top">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M11 5 4 10l2.6 5.2L9.5 13v14h13V13l2.9 2.2L28 10l-7-5c-1 2.2-3 3.4-5 3.4S12 7.2 11 5z" fill="currentColor"/></svg>
+          TOUCH<span>LINE</span>
+        </a>
+        <p>Football shirts for fans who care about the details. Authentic stock, honest grading, quick delivery.</p>
+        <div class="pay-row" aria-label="Payment methods">
+          <span>VISA</span><span>Mastercard</span><span>PayPal</span><span>Apple Pay</span><span>Klarna</span>
+        </div>
+      </div>
+      <nav aria-label="Shop links">
+        <h4>Shop</h4>
+        <a href="#shop" data-filter-cat="club">Club shirts</a>
+        <a href="#shop" data-filter-cat="international">International</a>
+        <a href="#retro">Retro Vault</a>
+        <a href="#shop" data-filter-cat="kids">Kids &amp; Women's</a>
+        <a href="#teamwear">Teamwear</a>
+      </nav>
+      <nav aria-label="Help links">
+        <h4>Help</h4>
+        <a href="#" data-action="size-finder">Size finder</a>
+        <a href="#">Delivery</a>
+        <a href="#">365-day returns</a>
+        <a href="#">Track my order</a>
+        <a href="#">Contact us</a>
+      </nav>
+      <nav aria-label="Company links">
+        <h4>Company</h4>
+        <a href="#retro">How we grade</a>
+        <a href="#">Authenticity promise</a>
+        <a href="#">About us</a>
+        <a href="#">Careers</a>
+      </nav>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© <span id="year"></span> TOUCHLINE. All rights reserved.</span>
+      <span>Photography via <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></span>
+    </div>
+  </footer>
+
+  <!-- ============ OVERLAYS ============ -->
+  <div class="scrim" id="scrim"></div>
+
+  <!-- Mobile menu -->
+  <aside class="drawer left" id="menuDrawer" aria-hidden="true" aria-label="Menu">
+    <div class="drawer-head">
+      <h3>Menu</h3>
+      <button class="icon-btn" data-action="close" aria-label="Close menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <nav class="drawer-body mobile-nav">
+      <a href="#shop" data-filter-cat="all">All shirts</a>
+      <a href="#shop" data-filter-cat="club">Club</a>
+      <a href="#shop" data-filter-cat="international">International</a>
+      <a href="#retro">Retro Vault</a>
+      <a href="#personalise">Personalise</a>
+      <a href="#teamwear">Teamwear</a>
+      <a href="#shop" data-filter-cat="kids">Kids &amp; Women's</a>
+      <a href="#shop" data-filter-cat="sale" class="nav-sale">Sale</a>
+      <label class="menu-currency">
+        <span class="field-label">Currency</span>
+        <select id="currencyMobile" class="select">
+          <option value="GBP">£ GBP</option>
+          <option value="EUR">€ EUR</option>
+          <option value="USD">$ USD</option>
+          <option value="PKR">Rs PKR</option>
+        </select>
+      </label>
+    </nav>
+  </aside>
+
+  <!-- Cart drawer -->
+  <aside class="drawer" id="cartDrawer" aria-hidden="true" aria-label="Shopping bag">
+    <div class="drawer-head">
+      <h3>Your bag <span id="cartHeadCount"></span></h3>
+      <button class="icon-btn" data-action="close" aria-label="Close bag"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="ship-bar" id="shipBar"></div>
+    <div class="drawer-body" id="cartItems"></div>
+    <div class="drawer-foot" id="cartFoot"></div>
+  </aside>
+
+  <!-- Wishlist drawer -->
+  <aside class="drawer" id="wishDrawer" aria-hidden="true" aria-label="Wishlist">
+    <div class="drawer-head">
+      <h3>Wishlist</h3>
+      <button class="icon-btn" data-action="close" aria-label="Close wishlist"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="drawer-body" id="wishItems"></div>
+  </aside>
+
+  <!-- Product modal -->
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Product details">
+    <div class="modal-panel">
+      <button class="icon-btn modal-close" data-action="close" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <div class="modal-scroll" id="pmContent"></div>
+    </div>
+  </div>
+
+  <!-- Size finder -->
+  <div class="modal" id="sizeModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="sf-title">
+    <div class="modal-panel sm">
+      <button class="icon-btn modal-close" data-action="close" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <div class="modal-scroll pad">
+        <span class="kicker">Size finder</span>
+        <h3 class="modal-title" id="sf-title">Find your perfect fit</h3>
+        <form id="sfForm" class="sf-form">
+          <div class="row2 even">
+            <div class="field"><label for="sfH">Height (cm)</label><input id="sfH" class="input" type="number" min="120" max="220" value="178" required /></div>
+            <div class="field"><label for="sfW">Weight (kg)</label><input id="sfW" class="input" type="number" min="30" max="160" value="75" required /></div>
+          </div>
+          <div class="field">
+            <span class="field-label">How do you like it to fit?</span>
+            <div class="seg" id="sfFit" role="group" aria-label="Fit preference">
+              <button type="button" data-fit="-1" aria-pressed="false">Fitted</button>
+              <button type="button" data-fit="0" aria-pressed="true">Regular</button>
+              <button type="button" data-fit="1" aria-pressed="false">Relaxed</button>
+            </div>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Find my size</button>
+        </form>
+        <div class="sf-result" id="sfResult" hidden></div>
+        <details class="acc">
+          <summary>Full size chart (chest, cm)</summary>
+          <table class="size-table">
+            <tr><th>Size</th><td>S</td><td>M</td><td>L</td><td>XL</td><td>XXL</td></tr>
+            <tr><th>Chest</th><td>88–96</td><td>96–104</td><td>104–112</td><td>112–124</td><td>124–136</td></tr>
+            <tr><th>Length</th><td>70</td><td>72</td><td>74</td><td>76</td><td>78</td></tr>
+          </table>
+        </details>
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkout -->
+  <div class="modal" id="checkoutModal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Checkout">
+    <div class="modal-panel md">
+      <button class="icon-btn modal-close" data-action="close" aria-label="Close"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <div class="modal-scroll" id="checkoutContent"></div>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="search-overlay" id="searchOverlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-panel">
+      <div class="search-bar">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="searchInput" type="search" placeholder="Search teams, players, countries…" autocomplete="off" aria-label="Search shirts" />
+        <button class="esc-btn" data-action="close">Esc</button>
+      </div>
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+
+  <div class="toast-stack" id="toasts" aria-live="polite"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/shirt.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
